@@ -34,13 +34,13 @@ public class 상점메인페이지 extends 웹페이지{
             if (input.isEmpty()) {
                 System.out.println(" >> 입력이 없습니다. 다시 입력해주세요.");
                 continue;
-            } else if (!isValidBranch(input, branches)) {
+            } else if (input.equals("10")) {
+				메인페이지.show_page();
+				break;
+			}	else if (!isValidBranch(input, branches)) {
                 System.out.println(" >> 해당 지점이 존재하지 않습니다.");
                 continue;
-            } else if (input.equals("10")) {
-            	메인페이지.show_page();
-            	break;
-            } else {
+            }  else {
                 System.out.println(" >> " + input + " 페이지로 이동");
                 상점지점페이지 page = new 상점지점페이지(input);
                 goTo(page);
