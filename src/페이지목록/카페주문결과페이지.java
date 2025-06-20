@@ -16,7 +16,7 @@ public class 카페주문결과페이지 extends 카페지점페이지{
         System.out.println("대기번호: #" + myNum);
         System.out.println("내 앞 대기 팀: " + frontNum + "팀");
         
-        System.out.println("=======");
+        System.out.println("===========================================");
         System.out.println("메뉴-1: 통합페이지 | 메뉴-2: 마이페이지");
 	}
 
