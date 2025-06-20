@@ -21,10 +21,10 @@ public static String branchName;
         sc.nextLine();
         
         if(sel == 1)  {
-            상품탐색페이지.showSubpage();
+            상품탐색페이지.show_page();
         } 
         else if(sel == 2) {
-            상점재고확인.showSubpage();
+            상점재고확인.show_page();
         } 
         else {
             System.out.println("잘못된 입력입니다.");

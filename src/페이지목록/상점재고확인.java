@@ -5,8 +5,8 @@ class 상점재고확인 extends 상품탐색페이지{
     private double 가격;
 
     public static void show_page(){
-        subpage1();
-        subpage2();
+        subpage1("빙그레 바나나 우유", 1.8);
+        subpage2("햄포테이트명란마요샌드위치");
 
     }
 
