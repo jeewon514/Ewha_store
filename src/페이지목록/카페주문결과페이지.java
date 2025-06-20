@@ -8,7 +8,7 @@ public class 카페주문결과페이지 extends 카페지점페이지{
         this.order = order;
     }
 	
-	public static void show_page() {
+	public static void show_page(String order) {
 		int myNum = (int)(Math.random()*10 + 1);
 		int frontNum = (int)(Math.random()*myNum);
 		

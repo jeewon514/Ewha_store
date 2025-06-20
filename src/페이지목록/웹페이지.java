@@ -9,10 +9,8 @@ public abstract class 웹페이지 {
     
     public static Scanner sc = new Scanner(System.in);
 
-    public static void show_page(){}
-    
-    public static void goTo(웹페이지 page) {
-		page.show_page();
-	}
+    public static void show_page(){
+
+    }
 
 }

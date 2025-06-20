@@ -1,7 +1,7 @@
 package 페이지목록;
 
 public class 카페지점페이지 extends 카페메인페이지{
-	static String branchName;
+	public static String branchName;
 	
 	public 카페지점페이지(String branchName) {
 		this.branchName = branchName;
@@ -9,7 +9,7 @@ public class 카페지점페이지 extends 카페메인페이지{
 	
 	public static void show_page() {
 		System.out.println("=======");
-        System.out.println(branchName + "점");
+        System.out.println(branchName);
         System.out.println("운영시간: 08:30 ~ 17:30");
         System.out.println("=======");
         System.out.println("메뉴1: 메뉴보기");
@@ -21,10 +21,12 @@ public class 카페지점페이지 extends 카페메인페이지{
         sc.nextLine();
         
         if(sel == 1)  {
-            goTo(new 카페메뉴조회페이지(branchName));
+            카페메뉴조회페이지.show_page();
+//            goTo(new 카페메뉴조회페이지(branchName));
         } 
         else if(sel == 2) {
-            goTo(new 카페대기현황페이지(branchName));
+            카페대기현황페이지.show_page();
+//            goTo(new 카페대기현황페이지(branchName));
         } 
         else {
             System.out.println("잘못된 입력입니다.");
