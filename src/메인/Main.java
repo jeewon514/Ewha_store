@@ -22,6 +22,7 @@ public class Main {
 
         default_setting();
         홈페이지.show_page();
+        웹페이지.show_page();
 
     }
 
@@ -34,4 +35,5 @@ public class Main {
     public static void show_mainpage(){
 
     }
+    
 }
