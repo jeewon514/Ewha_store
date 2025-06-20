@@ -1,8 +1,8 @@
 package 페이지목록;
 
 public class 카페메뉴조회페이지 extends 카페지점페이지{
-	static String[] menu = {"아이스 아메리카노", "핫 아메리카노", "아이스 카페라떼"};
-	static int[] price = {1700, 2000, 2500};
+	static String[] menu = {"아이스 아메리카노", "핫 아메리카노", "아이스 카페라떼", "아이스티", "아이스 초코 카페 라떼"};
+	static int[] price = {1700, 2000, 3700, 2500, 4400};
 	
 	public 카페메뉴조회페이지(String branchName) {
         super(branchName);
