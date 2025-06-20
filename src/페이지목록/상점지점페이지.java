@@ -23,10 +23,10 @@ public static String branchName;
 
         switch(sel){
             case 1:
-                카페메뉴조회페이지.show_page();
+                상품탐색페이지.show_page();
                 break;
             case 2:
-                카페대기현황페이지.show_page();
+                상점재고확인.show_page();
                 break;
             case -1:
                 메인페이지.show_page();
