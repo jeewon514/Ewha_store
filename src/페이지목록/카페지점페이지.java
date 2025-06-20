@@ -43,3 +43,6 @@ public class 카페지점페이지 extends 카페메인페이지{
 	}
 	
 }
+
+
+

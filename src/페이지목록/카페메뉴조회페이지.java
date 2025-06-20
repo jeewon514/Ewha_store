@@ -30,3 +30,4 @@ public class 카페메뉴조회페이지 extends 카페지점페이지{
 	}
 
 }
+

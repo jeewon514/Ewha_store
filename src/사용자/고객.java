@@ -12,15 +12,9 @@ public class 고객 extends 사용자 {
         this.favmenu = 찜한메뉴;
     }
 
-    public void 카페주문하기(){
-
-    }
-
-    public void 상점예약하기(){
-
-    }
-
-    public void 결제방식변경하기(){
-
-    }
 }
+
+
+
+
+

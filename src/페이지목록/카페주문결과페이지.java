@@ -32,7 +32,6 @@ public class 카페주문결과페이지 extends 카페지점페이지 {
                 sc.next();
                 continue;
             }
-
             break;
         }
 
@@ -50,5 +49,5 @@ public class 카페주문결과페이지 extends 카페지점페이지 {
             	return;
         }
     }
-
 }
+

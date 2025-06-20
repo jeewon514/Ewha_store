@@ -60,3 +60,5 @@ public class 상점메인페이지 extends 웹페이지{
 		return false;
 	}
 }
+
+

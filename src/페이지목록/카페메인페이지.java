@@ -62,3 +62,6 @@ public class 카페메인페이지 extends 웹페이지 {
         }
     }
 }
+
+
+

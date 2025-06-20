@@ -7,10 +7,5 @@ public abstract class 사용자 {
     public String name;
     public String phone;
 
-
-
-    public 사용자(){
-
-    }
 }
 
