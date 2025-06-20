@@ -26,10 +26,9 @@ public class 상점메인페이지 extends 웹페이지{
 		System.out.println("중앙도서관 B1층 B103-2호");
 		System.out.println("                                           ");
 		System.out.println("===========================================");
-		System.out.println("                                           ");
 		
 		while (true) {
-            System.out.print("지점 선택하기 : ");
+            System.out.print("지점 선택하기(전으로 돌아가려면 10을 입력하시오): ");
             String input = scanner.nextLine().trim();
 
             if (input.isEmpty()) {
@@ -38,7 +37,7 @@ public class 상점메인페이지 extends 웹페이지{
             } else if (!isValidBranch(input, branches)) {
                 System.out.println(" >> 해당 지점이 존재하지 않습니다.");
                 continue;
-            } else if (input.equals("-1")) {
+            } else if (input.equals("10")) {
             	메인페이지.show_page();
             	break;
             } else {

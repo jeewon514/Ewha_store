@@ -17,8 +17,12 @@ public class 카페메뉴조회페이지 extends 카페지점페이지{
             System.out.println("가격: " + price[i] + "원");
             System.out.println();
         }
+        System.out.println("(전으로 돌아가려면 10을 입력하시오)");
         System.out.print("메뉴 주문하기 (예시: 아이스 아메리카노): ");
         String order = sc.nextLine();
+        if (order.equals("10")) {
+        	카페지점페이지.show_page();
+        }
         카페주문결과페이지.show_page(order);
 	}
 
