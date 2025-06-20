@@ -21,8 +21,7 @@ public class 상품메뉴조회페이지 extends 상점지점페이지 {
             case 4: result = "4) 마이 페이지";break;
         }
         System.out.println(result);
-        String storage = sc.nextLine();
-        상점입고결과페이지.show_page(storage);
-            goTo(new 상점입고결과페이지(branchName, storage));
+
+
     }
 }
