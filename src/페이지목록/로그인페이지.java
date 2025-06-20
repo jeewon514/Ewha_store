@@ -9,7 +9,7 @@ public class 로그인페이지 extends 웹페이지 {
     static Scanner sc = new Scanner(System.in);
 
     public static void show_page(){
-        System.out.println("아이디를 입력해주세요: ");
+        System.out.print("아이디를 입력해주세요: ");
         String id;
 
         while(true){
@@ -23,7 +23,7 @@ public class 로그인페이지 extends 웹페이지 {
             break;
         }
 
-        System.out.println("비밀번호를 입력해주세요: ");
+        System.out.print("비밀번호를 입력해주세요: ");
         String pw;
 
         while(true){

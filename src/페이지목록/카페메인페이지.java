@@ -46,6 +46,9 @@ public class 카페메인페이지 extends 웹페이지 {
             if (input.isEmpty()) {
                 System.out.println(" >> 입력이 없습니다. 다시 입력해주세요.");
                 continue;
+            } else if (input.equals("-1")) {
+            	메인페이지.show_page();
+            	break;
             } else if (!isValidBranch(input, branches)) {
                 System.out.println(" >> 해당 지점이 존재하지 않습니다.");
                 continue;
