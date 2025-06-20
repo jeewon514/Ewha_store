@@ -13,4 +13,8 @@ public abstract class 웹페이지 {
 
     }
 
+    public static void end(){
+        end();
+    }
+
 }
