@@ -14,6 +14,5 @@ public class 상점입고결과페이지 {
         System.out.println("상품5. 숯불맛소불고기김밥");System.out.println("가격: 2.8");System.out.println();
         System.out.println(storage);
 
-
     }
 }
