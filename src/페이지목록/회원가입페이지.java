@@ -7,13 +7,13 @@ public class 회원가입페이지 extends 웹페이지 {
 
     public static Scanner sc = new Scanner(System.in);
     public static void show_page(){
-        System.out.println("이름: ");
+        System.out.print("이름: ");
         String name = sc.next();
 
-        System.out.println("전화번호: ");
+        System.out.print("전화번호: ");
         String phone = sc.next();
 
-        System.out.println("아이디: ");
+        System.out.print("아이디: ");
         String id;
         while(true){
             try{
@@ -26,7 +26,7 @@ public class 회원가입페이지 extends 웹페이지 {
             break;
         }
 
-        System.out.println("비밀번호: ");
+        System.out.print("비밀번호: ");
         String pw;
         while(true){
             try{
