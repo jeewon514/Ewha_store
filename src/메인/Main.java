@@ -28,8 +28,6 @@ public class Main {
 
     public static void default_setting(){
         DB.load_data();
-        이화카페 공대점 = new 이화카페("매장.이화카페 공대점", "김이화1", "공대B132");
-        이화카페 학관점 = new 이화카페 ("매장.이화카페 학관점", "김일화", "학관421");
     }
 
     public static void show_mainpage(){
