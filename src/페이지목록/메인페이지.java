@@ -25,6 +25,8 @@ public class 메인페이지 extends 웹페이지 {
             case 2:
                 상점메인페이지.show_page();
                 break;
+            case 0:
+                System.exit(0);
             case -1:
                 show_page();
                 break;

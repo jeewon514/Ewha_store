@@ -96,6 +96,8 @@ public class 상품탐색페이지 extends 웹페이지 {
             case 3:
                 add_product();
                 break;
+            case 0:
+                System.exit(0);
             case 10:
                 상점지점페이지.show_page();
             case -1:

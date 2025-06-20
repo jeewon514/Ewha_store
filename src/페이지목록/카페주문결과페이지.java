@@ -43,6 +43,8 @@ public class 카페주문결과페이지 extends 카페지점페이지 {
             case -2:
                 마이페이지.show_page();
                 return;
+            case 0:
+                System.exit(0);
             case 10:
             	카페지점페이지.show_page();
             	return;

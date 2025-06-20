@@ -33,6 +33,8 @@ class 상점재고확인 extends 상품탐색페이지{
             case -2:
                 마이페이지.show_page();
                 return;
+            case 0:
+                System.exit(0);
             case 10:
                 상점지점페이지.show_page();
                 return;

@@ -47,7 +47,9 @@ public class 카페메인페이지 extends 웹페이지 {
             } else if (input.equals("10")) {
             	메인페이지.show_page();
             	break;
-            } else if (!isValidBranch(input, branches)) {
+            } else if(input.equals("0")){
+                System.exit(0);
+            }else if (!isValidBranch(input, branches)) {
                 System.out.println(" >> 해당 지점이 존재하지 않습니다.");
                 continue;
             } else {

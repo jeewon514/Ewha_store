@@ -22,6 +22,8 @@ public class 카페메뉴조회페이지 extends 카페지점페이지{
         String order = sc.nextLine();
         if (order.equals("10")) {
         	카페지점페이지.show_page();
+        } else if (order.equals("0")){
+            System.exit(0);
         }
         카페주문결과페이지.show_page(order);
 	}

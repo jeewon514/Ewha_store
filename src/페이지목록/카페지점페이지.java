@@ -27,6 +27,8 @@ public class 카페지점페이지 extends 카페메인페이지{
             case 2:
                 카페대기현황페이지.show_page();
                 break;
+            case 0:
+                System.exit(0);
             case -1:
                 메인페이지.show_page();
                 break;

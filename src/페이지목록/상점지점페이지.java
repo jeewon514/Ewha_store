@@ -28,6 +28,8 @@ public static String branchName;
             case 2:
                 상점재고확인.show_page();
                 break;
+            case 0:
+                System.exit(0);
             case 10:
                 상점메인페이지.show_page();
             case -1:
