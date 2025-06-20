@@ -35,6 +35,8 @@ public class 마이페이지 extends 웹페이지 {
             case -2:
                 show_page();
                 break;
+            case 0:
+                System.exit(0);
         }
 
     }
