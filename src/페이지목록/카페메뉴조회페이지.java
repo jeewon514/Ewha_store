@@ -10,7 +10,7 @@ public class 카페메뉴조회페이지 extends 카페지점페이지{
 	
 	public static void show_page() {
 		System.out.println("===========================================");
-        System.out.println("메뉴 조회 페이지");
+        System.out.println("                메뉴 조회 페이지               ");
         System.out.println("===========================================");
         for(int i=0; i<menu.length; i++) {
             System.out.println("메뉴" + (i+1) + ": " + menu[i]);
