@@ -16,7 +16,7 @@ public static String branchName;
         System.out.println("메뉴2: 재고확인하기");
         System.out.println("===========================================");
         System.out.println("메뉴-1: 메인 페이지 | 메뉴-2: 마이페이지");
-        System.out.print("메뉴 번호를 입력하세요: ");
+        System.out.print("메뉴 번호를 입력하세요 (전으로 돌아가려면 10을 입력하시오): ");
 
         int sel = sc.nextInt();
         sc.nextLine();
@@ -28,6 +28,8 @@ public static String branchName;
             case 2:
                 상점재고확인.show_page();
                 break;
+            case 10:
+                상점메인페이지.show_page();
             case -1:
                 메인페이지.show_page();
                 break;

@@ -20,7 +20,8 @@ public class 상품탐색페이지 extends 웹페이지 {
             System.out.println("상품6. 하겐) 쿠키앤크림파인트 [New!]");System.out.println("가격: 17.9");System.out.println();
         }
         System.out.println("===========================================");
-        System.out.println("메뉴1: 전체 메뉴 조회      |    메뉴2: 인기순 메뉴 조회  | 메뉴3: 입고 결과");
+        System.out.println("메뉴1: 전체 메뉴 조회      |    메뉴2: 인기순 메뉴 조회");
+        System.out.println("메뉴3: 입고 확인");
         System.out.println("메뉴-1: 메인 페이지       |    메뉴-2: 마이 페이지");
         System.out.println("===========================================");
 
@@ -38,14 +39,15 @@ public class 상품탐색페이지 extends 웹페이지 {
         System.out.println("상품5. 숯불맛소불고기김밥");System.out.println("가격: 2.8");System.out.println();
         System.out.println("상품6. 바프) 쿠키앤크림몰크볼 40g");System.out.println("가격: 2.5");System.out.println();
         if(check_new){
-            System.out.println("상품8. 하겐) 쿠키앤크림파인트 [New!]");System.out.println("가격: 17.9");System.out.println();
-            System.out.println("상품9. CJ) 햇반소고기죽 268g");System.out.println("가격: 5.5");System.out.println();
+            System.out.println("상품7. 하겐) 쿠키앤크림파인트 [New!]");System.out.println("가격: 17.9");System.out.println();
+            System.out.println("상품8. CJ) 햇반소고기죽 268g");System.out.println("가격: 5.5");System.out.println();
         }
         else{
             System.out.println("상품7. CJ) 햇반소고기죽 268g");System.out.println("가격: 5.5");System.out.println();
         }
         System.out.println("===========================================");
         System.out.println("메뉴1: 전체 메뉴 조회      |    메뉴2: 인기순 메뉴 조회 ");
+        System.out.println("메뉴3: 입고 확인");
         System.out.println("메뉴-1: 메인 페이지       |      메뉴-2: 마이 페이지");
         System.out.println("===========================================");
 
@@ -67,7 +69,8 @@ public class 상품탐색페이지 extends 웹페이지 {
             System.out.println("상품8. 하겐) 쿠키앤크림파인트 [New!]");System.out.println("가격: 17.9");System.out.println();
         }
         System.out.println("===========================================");
-        System.out.println("메뉴1: 전체 메뉴 조회      |    메뉴2: 인기순 메뉴 조회  | 메뉴3: 입고 확인");
+        System.out.println("메뉴1: 전체 메뉴 조회      |    메뉴2: 인기순 메뉴 조회");
+        System.out.println("메뉴3: 입고 확인");
         System.out.println("메뉴-1: 메인 페이지       |    메뉴-2: 마이 페이지");
         System.out.println("===========================================");
 
@@ -81,7 +84,7 @@ public class 상품탐색페이지 extends 웹페이지 {
     }
 
     public static void select_menu(){
-        System.out.print("메뉴 번호를 입력하세요: ");
+        System.out.print("메뉴 번호를 입력하세요 (전으로 돌아가려면 10을 입력하시오): ");
         int select = sc.nextInt();
         switch(select){
             case 1:
@@ -93,6 +96,8 @@ public class 상품탐색페이지 extends 웹페이지 {
             case 3:
                 add_product();
                 break;
+            case 10:
+                상점지점페이지.show_page();
             case -1:
                 메인페이지.show_page();
                 break;
