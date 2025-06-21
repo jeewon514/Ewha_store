@@ -6,6 +6,7 @@ public class 마이페이지 extends 웹페이지 {
 
     static Scanner sc = new Scanner(System.in);
     public static void show_page(){
+    	System.out.println(" ");
         System.out.println("===========================================");
         System.out.println("                  마이페이지                  ");
         System.out.println("===========================================");
@@ -16,8 +17,8 @@ public class 마이페이지 extends 웹페이지 {
         System.out.println("===========================================");
 
         System.out.println("    마이 메뉴    ");
-        System.out.println("메뉴1: 결제수단 관리  | 메뉴2: 전자 영수증   | 메뉴3: 메뉴 찜하기");
-        System.out.println("메뉴4:  쿠폰 등록    | 메뉴5: 개인정보 관리 | 메뉴6: 지점 찜하기");
+        System.out.println("메뉴 1: 결제수단 관리  | 메뉴 2: 전자 영수증   | 메뉴 3: 메뉴 찜하기");
+        System.out.println("메뉴 4:  쿠폰 등록    | 메뉴 5: 개인정보 관리 | 메뉴 6: 지점 찜하기");
 
         System.out.println("===========================================");
         System.out.println("                   바로가기                  ");
@@ -41,3 +42,5 @@ public class 마이페이지 extends 웹페이지 {
 
     }
 }
+
+

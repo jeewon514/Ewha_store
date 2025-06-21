@@ -22,7 +22,8 @@ public class 카페메인페이지 extends 웹페이지 {
 
         String[] branches = {"신공학관점", "학생문화관점", "학관점"};
 
-        System.out.println("===========================================");
+    	System.out.println(" ");
+    	System.out.println("===========================================");
         System.out.println("              이화 카페 메인 페이지              ");
         System.out.println("===========================================");
         System.out.println("                                           ");
@@ -53,8 +54,7 @@ public class 카페메인페이지 extends 웹페이지 {
                 System.out.println(" >> 해당 지점이 존재하지 않습니다.");
                 continue;
             } else {
-                System.out.println(" >> " + input + " 페이지로 이동");
-                System.out.println("                                           ");
+                System.out.println(" >> " + input + " 페이지로 이동..");
                 카페지점페이지 page = new 카페지점페이지(input);
                 goTo(page);
                 break;
@@ -62,3 +62,6 @@ public class 카페메인페이지 extends 웹페이지 {
         }
     }
 }
+
+
+

@@ -12,6 +12,7 @@ public class 상점메인페이지 extends 웹페이지{
 		
 		String[] branches = {"학생문화관점", "아산공학관점", "중앙도서관점"};
 		
+		System.out.println("                                           ");
 		System.out.println("===========================================");
 		System.out.println("              이화 상점 메인 페이지              ");
 		System.out.println("===========================================");
@@ -43,7 +44,7 @@ public class 상점메인페이지 extends 웹페이지{
                 System.out.println(" >> 해당 지점이 존재하지 않습니다.");
                 continue;
             }  else {
-                System.out.println(" >> " + input + " 페이지로 이동");
+                System.out.println(" >> " + input + " 페이지로 이동..");
                 상점지점페이지 page = new 상점지점페이지(input);
                 goTo(page);
                 break;
@@ -59,3 +60,5 @@ public class 상점메인페이지 extends 웹페이지{
 		return false;
 	}
 }
+
+
