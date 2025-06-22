@@ -11,7 +11,15 @@ public class 카페지점페이지 extends 카페메인페이지{
 		System.out.println("  ");
 		System.out.println("===========================================");
         System.out.println(branchName);
-        System.out.println("운영시간: 08:30 ~ 17:30");
+        if (branchName.equals("신공학관점")) {
+        	System.out.println("운영시간: 08:30 ~ 17:30\n       주말 휴무");
+        }
+        else if (branchName.equals("학생문화관점")) {
+        	System.out.println("운영시간: 주중 08:30 ~ 17:00\n       주말 휴무");
+        }
+        else if (branchName.equals("학관점")) {
+        	System.out.println("운영시간: 주중 08:30 ~ 17:00\n       주말 휴무");
+        }
         System.out.println("===========================================");
         System.out.println("메뉴 1: 메뉴보기");
         System.out.println("메뉴 2: 대기현황보기");
@@ -41,7 +49,6 @@ public class 카페지점페이지 extends 카페메인페이지{
                 break;
         }
 	}
-	
 }
 
 
