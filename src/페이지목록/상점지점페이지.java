@@ -11,7 +11,15 @@ public static String branchName;
 		System.out.println("   ");
 		System.out.println("===========================================");
         System.out.println(branchName);
-        System.out.println("운영시간: 매일 24시간 무인 운영\n       주중 8:30 ~ 17:30");
+        if (branchName.equals("아산공학관점")) {
+        	System.out.println("운영시간: 매일 24시간 무인 운영\n       주중 8:30 ~ 17:30 유인 운영");
+        }
+        else if (branchName.equals("학생문화관점")) {
+        	System.out.println("운영시간: 주중 8:00 ~ 19:00 유인 운영");
+        }
+        else if (branchName.equals("중앙도서관점")) {
+        	System.out.println("운영시간: 매일 24시간 무인 운영\n       주중 8:30 ~ 18:00 유인 운영");
+        }
         System.out.println("===========================================");
         System.out.println("메뉴 1: 상품보기");
         System.out.println("메뉴 2: 재고확인하기");
