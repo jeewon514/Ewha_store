@@ -7,7 +7,7 @@ import 메인.*;
 public class DB {
 
     private static DB instance = null;
-    public static File file = new File("data/사용자정보db.txt");
+    public static File file = new File("src/data/사용자정보db.txt");
     public static ArrayList<고객> user_list = new ArrayList<>();
 
 
